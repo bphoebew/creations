@@ -83,3 +83,10 @@ p{
     -o-transition: all 1s ease;
     transition: all 1s ease;
 }
+a:link {
+  color: #E3DFFF;
+}
+
+a:visited {
+  color: #E3DFFF;
+}
