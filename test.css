@@ -52,7 +52,7 @@ transition: all 1s ease;
 transition: all 1s ease;
 }
 .title {
-margin-right: 130px;
+margin-right: 10%;
 margin-top: 100px;
 margin-bottom: 50px;
   text-align: right;
@@ -64,6 +64,18 @@ margin-bottom: 50px;
   -moz-transition: all 1s ease;
   -o-transition: all 1s ease;
   transition: all 1s ease;
+}
+.pTitle{
+  font-size: 20px;
+  color: white;
+  margin-right: 20%;
+  margin-bottom: 30px;
+  text-align: right;
+  font-family: 'Poppins', sans-serif;
+  -webkit-transition: all 1s ease;
+-moz-transition: all 1s ease;
+-o-transition: all 1s ease;
+transition: all 1s ease;
 }
 p{
   font-size: 20px;
