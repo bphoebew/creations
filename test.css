@@ -153,39 +153,6 @@ h3{
     -o-transition: all 1s ease;
     transition: all 1s ease;
 }
-.sketchOne{
-  position: absolute;
-  top: 40%;
-  left: 12%;
-  width: 500px;
-  height: 400px;
-  -webkit-transition: all 1s ease;
--moz-transition: all 1s ease;
--o-transition: all 1s ease;
-transition: all 1s ease;
-}
-.sketchTwo{
-  position: absolute;
-  top: 110%;
-  left: 14%;
-  width: 520px;
-  height: 330px;
-  -webkit-transition: all 1s ease;
--moz-transition: all 1s ease;
--o-transition: all 1s ease;
-transition: all 1s ease;
-}
-.sketchThree{
-  position: absolute;
-  top: 175%;
-  left: 25%;
-  width: 200px;
-  height: 400px;
-  -webkit-transition: all 1s ease;
--moz-transition: all 1s ease;
--o-transition: all 1s ease;
-transition: all 1s ease;
-}
 a:link {
   color: #E3DFFF;
 }
@@ -196,6 +163,8 @@ a:visited {
 .flexDescription{
   display: flex;
   justify-content: center;
+  margin-left: 2%;
+
 }
 .flexAll{
   display: flex;
@@ -216,10 +185,12 @@ a:visited {
   margin-bottom: 3%;
   width: 800px;
   height: 500px;
+  object-fit: cover;
 }
 .showPicTwo{
   margin-left: 25%;
   margin-bottom: 0px;
   width: 800px;
   height: 500px;
+  object-fit: cover;
 }

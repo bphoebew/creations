@@ -163,6 +163,7 @@ a:visited {
 .flexDescription{
   display: flex;
   justify-content: center;
+  margin-left: 2%;
 }
 .flexAll{
   display: flex;
