@@ -52,10 +52,9 @@ transition: all 1s ease;
 transition: all 1s ease;
 }
 .title {
-margin-right: 10%;
 margin-top: 100px;
 margin-bottom: 50px;
-  text-align: right;
+  text-align: center;
 		font-size: 80px;
 		color: transparent;
 		-webkit-text-stroke: 2px rgba(255, 255, 255, 0.5);
@@ -68,21 +67,58 @@ margin-bottom: 50px;
 .pTitle{
   font-size: 20px;
   color: white;
-  margin-right: 20%;
-  margin-bottom: 30px;
-  text-align: right;
+  /* margin-right: 20%; */
+  /* margin-top: 80px; */
+  /* margin-bottom: 50px; */
+  margin-left: 100px;
+  text-align: center;
   font-family: 'Poppins', sans-serif;
   -webkit-transition: all 1s ease;
 -moz-transition: all 1s ease;
 -o-transition: all 1s ease;
 transition: all 1s ease;
 }
+.role{
+  color: white;
+  font-size: 20px;
+  /* margin-right: 130px; */
+  margin-left: 50%;
+  margin-bottom: 40px;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  -webkit-transition: all 1s ease;
+-moz-transition: all 1s ease;
+-o-transition: all 1s ease;
+transition: all 1s ease;
+}
+.roleS{
+    font-size: 15px;
+    color: white;
+    margin-left: 50%;
+    margin-bottom: 10px;
+    width: 100px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  transition: all 1s ease;
+}
+.logo{
+  width: 400px;
+  height: 400px;
+}
+.flexPic{
+  display: flex;
+  justify-content: center;
+}
 p{
   font-size: 20px;
   color: white;
+  width: 450px;
   margin-right: 130px;
   margin-bottom: 30px;
-  text-align: right;
+  text-align: center;
   font-family: 'Poppins', sans-serif;
   -webkit-transition: all 1s ease;
 -moz-transition: all 1s ease;
@@ -107,7 +143,7 @@ h3{
   margin-right: 130px;
   margin-top: 40px;
   margin-bottom: 30px;
-    text-align: right;
+    text-align: center;
       font-size: 55px;
       color: transparent;
       -webkit-text-stroke: 2px rgba(255, 255, 255, 0.5);
@@ -156,4 +192,34 @@ a:link {
 
 a:visited {
   color: #E3DFFF;
+}
+.flexDescription{
+  display: flex;
+  justify-content: center;
+}
+.flexAll{
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-around; */
+  /* margin-left: 18%;
+  margin-bottom: 5%; */
+}
+.flexAgain{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-left: 15%;
+  margin-bottom: 5%;
+}
+.showPic{
+  margin-left: 25%;
+  margin-bottom: 3%;
+  width: 800px;
+  height: 500px;
+}
+.showPicTwo{
+  margin-left: 25%;
+  margin-bottom: 0px;
+  width: 800px;
+  height: 500px;
 }
