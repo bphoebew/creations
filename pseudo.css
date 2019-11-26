@@ -194,7 +194,7 @@ a:visited {
 }
 .showPicTwo{
   margin-left: 25%;
-  margin-bottom: 0px;
+  margin-bottom: -5px;
   width: 800px;
   height: 500px;
   object-fit: cover;
