@@ -199,6 +199,12 @@ a:visited {
   height: 500px;
   object-fit: cover;
 }
+.showPicThree{
+  margin-left: 25%;
+  margin-bottom: 3%;
+  width: 800px;
+  height: 500px;
+}
 .showPicCHAT{
   margin-left: 25%;
   margin-bottom: 0px;
