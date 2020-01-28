@@ -106,7 +106,7 @@ transition: all 1s ease;
 }
 .logo{
   width: 400px;
-  height: 400px;
+  height: 500px;
 }
 .flexPic{
   display: flex;
@@ -169,7 +169,8 @@ a:visited {
 .flexVertical{
   display: flex;
   justify-content: center;
-  margin-left: -17%;
+  flex-direction: column;
+  margin-left: 20%;
 }
 .flexAll{
   display: flex;
@@ -188,8 +189,8 @@ a:visited {
 .showPic{
   margin-left: 25%;
   margin-bottom: 3%;
-  width: 800px;
-  height: 500px;
+  width: 380px;
+  height: 400px;
   object-fit: cover;
 }
 .showPicTwo{
