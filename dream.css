@@ -105,8 +105,9 @@ transition: all 1s ease;
   transition: all 1s ease;
 }
 .logo{
-  width: 400px;
-  height: 500px;
+  width: 600px;
+  height: 430px;
+  margin-bottom: 30px;
 }
 .flexPic{
   display: flex;
@@ -206,20 +207,6 @@ a:visited {
   width: 400px;
   height: 500px;
     margin-bottom: 3%;
-}
-.pen{
-  font-size: 20px;
-  color: white;
-  width: 450px;
-  margin-right: 130px;
-  margin-top: 70px;
-  /* margin-bottom: 30px; */
-  text-align: center;
-  font-family: 'Poppins', sans-serif;
-  -webkit-transition: all 1s ease;
--moz-transition: all 1s ease;
--o-transition: all 1s ease;
-transition: all 1s ease;
 }
 .flexRow{
   display: flex;
