@@ -1,4 +1,3 @@
-
 body{
   background: #16132d;
 }
@@ -105,7 +104,7 @@ transition: all 1s ease;
   transition: all 1s ease;
 }
 .logo{
-  width: 250px;
+  width: 200px;
   height: 200px;
 }
 .flexPic{
@@ -164,6 +163,12 @@ a:visited {
   display: flex;
   justify-content: center;
   margin-left: 2%;
+
+}
+.flexVertical{
+  display: flex;
+  justify-content: center;
+  margin-left: -17%;
 }
 .flexAll{
   display: flex;
@@ -193,24 +198,10 @@ a:visited {
   height: 500px;
   object-fit: cover;
 }
-.showPicThree{
+.showPicCHAT{
   margin-left: 25%;
-  /* margin-top: 0.11%; */
-  margin-bottom: 3%;
-  width: 800px;
-  height: 75px;
-  object-fit: cover;
-}
-.showPicFr{
-  margin-left: 25%;
-  margin-bottom: 3%;
-  width: 800px;
-  height: 500px;
-  object-fit: cover;
-}
-/* .showPicTwo{
-  margin-left: 10%;
-  margin-bottom: 3%;
+  margin-bottom: 0px;
   width: 400px;
-  height: 700px;
-} */
+  height: 500px;
+    margin-bottom: 3%;
+}

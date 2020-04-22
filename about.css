@@ -78,6 +78,38 @@ transform: rotate(20deg);
 -webkit-transform: rotate(-5deg);
 transform: rotate(-5deg);
 }
+.profile{
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 50%;
+  position: absolute;
+  top: 20%;
+  left: 15%;
+}
+.circle{
+  border:2px solid white;
+  border-radius:50%;
+  background:rgba(0,0,0,0);
+  color:white;
+  width:400px;
+  height:400px;
+  position: absolute;
+  top: 23%;
+  left: 18%;
+}
+h2{
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  text-align: right;
+  font-size: 40px;
+  margin-top: 10%;
+  -webkit-transition: all 1s ease;
+-moz-transition: all 1s ease;
+-o-transition: all 1s ease;
+transition: all 1s ease;
+margin-right: 15%;
+}
 /* img:hover{
   z-index: 2;
 } */

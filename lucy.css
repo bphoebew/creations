@@ -105,8 +105,10 @@ transition: all 1s ease;
   transition: all 1s ease;
 }
 .logo{
-  width: 200px;
-  height: 300px;
+  /* width: 200px;
+  height: 300px; */
+  width: 150px;
+  height: 200px;
 }
 .flexPic{
   display: flex;
