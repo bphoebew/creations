@@ -53,7 +53,7 @@ transition: all 1s ease;
 }
 .title {
 margin-top: 100px;
-margin-bottom: 0px;
+margin-bottom: 20px;
   text-align: center;
 		font-size: 80px;
 		color: transparent;
@@ -70,7 +70,6 @@ margin-bottom: 0px;
   /* margin-right: 20%; */
   /* margin-top: 80px; */
   /* margin-bottom: 50px; */
-  margin-top: 10px;
   margin-left: 100px;
   text-align: center;
   font-family: 'Poppins', sans-serif;
@@ -106,9 +105,8 @@ transition: all 1s ease;
   transition: all 1s ease;
 }
 .logo{
-  width: 300px;
-  height: 260px;
-  margin: 0px;
+  width: 200px;
+  height: 200px;
 }
 .flexPic{
   display: flex;
@@ -186,11 +184,33 @@ a:visited {
   margin-bottom: 3%;
   width: 800px;
   height: 500px;
-  object-fit: cover;
+  /* object-fit: cover; */
 }
 .showPicTwo{
+  margin-left: 25%;
+  margin-bottom: -5px;
+  width: 800px;
+  height: 500px;
+  object-fit: cover;
+}
+.showPicThree{
+  margin-left: 25%;
+  /* margin-top: 0.11%; */
+  margin-bottom: 3%;
+  width: 800px;
+  height: 75px;
+  object-fit: cover;
+}
+.showPicFr{
+  margin-left: 25%;
+  margin-bottom: 3%;
+  width: 800px;
+  height: 500px;
+  object-fit: cover;
+}
+/* .showPicTwo{
   margin-left: 10%;
   margin-bottom: 3%;
   width: 400px;
   height: 700px;
-}
+} */
