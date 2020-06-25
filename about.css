@@ -134,38 +134,44 @@ margin-right: 15%;
 .socials{
   display: flex;
   flex-direction: row;
-  margin-left: 100px;
+  margin-left: 50px;
   margin-top: 20px;
 }
 .github{
-  border-radius: 50%;
-  background-color: white;
+  /* border-radius: 50%; */
+  /* background-color: white; */
   width: 35px;
   height: 35px;
-  padding: 20px;
-  margin-right: 20px;
+  /* padding: 20px; */
+  /* margin-right: 20px; */
 }
 .IG{
-  border-radius: 50%;
-  background-color: white;
+  /* border-radius: 50%; */
+  /* background-color: white; */
   width: 35px;
   height: 35px;
-  padding: 20px;
-  margin-right: 20px;
+  margin-top: 5px;
+  /* padding: 20px; */
+  /* margin-right: 20px; */
 }
 .mail{
   width: 35px;
   height: 35px;
   /* padding: 20px; */
 }
-button{
+.in{
+  width: 35px;
+  height: 35px;
+}
+.socialBut{
   width: 75px;
   height: 75px;
   border-radius: 50%;
+  margin-right: 20px;
   /* padding: 20px; */
 }
 
-.github:hover, .IG:hover, button:hover, .mail:hover{
+.github:hover, .IG:hover, .socialBut:hover, .mail:hover{
   /* background-color: #38AECC; */
   /* #E1BB80; */
   background-color: #E3DFFF;
