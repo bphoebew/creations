@@ -127,6 +127,7 @@ margin-right: 15%;
 .flexCol{
   display: flex;
   flex-direction: column;
+  justify-content: center;
   position: absolute;
   top: 23%;
   right: 1%;
@@ -134,7 +135,7 @@ margin-right: 15%;
 .socials{
   display: flex;
   flex-direction: row;
-  margin-left: 50px;
+  margin-right: 50px;
   margin-top: 20px;
 }
 .github{
